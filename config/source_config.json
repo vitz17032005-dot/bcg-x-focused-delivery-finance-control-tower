@@ -1,0 +1,31 @@
+{
+  "sources": {
+    "fx": {
+      "kaggle_dataset": "robikscube/exhange-rates-to-usd-from-imforg-updated-daily",
+      "purpose": "Daily exchange rates to USD sourced from IMF.org"
+    },
+    "india_salary": {
+      "kaggle_dataset": "franekwodarczyk/india-cost-of-living-vs-salary-2010-2024",
+      "purpose": "City-year salary and cost-of-living panel"
+    },
+    "linkedin_jobs": {
+      "kaggle_dataset": "arshkon/linkedin-job-postings",
+      "purpose": "Public LinkedIn job-posting snapshot for labor-demand and salary signals"
+    }
+  },
+  "job_role_keywords": {
+    "Data Engineer": ["data engineer", "data engineering"],
+    "Data Analyst": ["data analyst", "business intelligence", "bi analyst"],
+    "Machine Learning / AI": ["machine learning", "artificial intelligence", "ai engineer", "ml engineer", "machine learning engineer"],
+    "Software Engineer": ["software engineer", "software developer", "backend engineer", "full stack", "frontend engineer"],
+    "Product Manager": ["product manager", "product owner"],
+    "QA / Testing": ["qa engineer", "quality assurance", "test engineer"],
+    "Product / UX Design": ["product designer", "ux designer", "ui designer"]
+  },
+  "risk_thresholds": {
+    "fx_volatility_30d_amber": 0.025,
+    "fx_volatility_30d_red": 0.05,
+    "demand_growth_yoy_amber": -0.15,
+    "demand_growth_yoy_red": -0.30
+  }
+}
