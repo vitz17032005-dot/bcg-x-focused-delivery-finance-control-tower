@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.env
+# Keep the complete LinkedIn postings source outside ordinary Git; use a GitHub Release asset.
+data/raw/**/postings.csv
