@@ -1,0 +1,12 @@
+{
+  "synthetic_rows_added": 0,
+  "source_storage": "compressed_csv_archives",
+  "required_archive_names": [
+    "exchange_rate_to_usd.csv.zip",
+    "exchange_rate_usd_to.csv.zip",
+    "india_col_salary_longitudinal_2010_2024.csv.zip",
+    "linkedin_role_market_extract.csv.zip",
+    "linkedin_supporting_tables.zip"
+  ],
+  "full_linkedin_postings_repository_policy": "GitHub Release asset"
+}
